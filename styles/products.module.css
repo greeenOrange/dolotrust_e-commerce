@@ -1,0 +1,45 @@
+.primary_card {
+    background: var(--white);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.primary_card img {
+    width: 100%;
+}
+.primary_card_body{
+    padding: 1rem;
+}
+.card_rating_price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card_price{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.view_btn{
+    align-self: center;
+    color: var(--gold);
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: var(--size-900);
+}
+.view_all {
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+@media (min-width: 50em) {
+    .card_warpper {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: var(--size-900);
+    }
+    .primary_card_body{
+        max-height: 18rem;
+        height: 100%;
+    }
+}
