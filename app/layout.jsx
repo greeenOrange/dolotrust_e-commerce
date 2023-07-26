@@ -22,14 +22,3 @@ const RootLayout = ({children}) =>{
   )
 }
 export default RootLayout
-
-
-export const getStaticProps = async()=>{
-    const res = await fetch("http://localhost:5000/products")
-    const data = await res.json()
-    return {
-      props : {
-        allProduct: data
-      },
-    }
-  }
