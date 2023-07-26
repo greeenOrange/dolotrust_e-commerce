@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
-import style from '../../styles/Counter.module.css'
+import style from '../../styles/counter.module.css'
 const Counter = () => {
     let [clockData, setClockData] = useState({
         dd: 0,
