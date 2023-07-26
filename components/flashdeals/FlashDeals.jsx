@@ -2,7 +2,7 @@ import { faPlus, faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import style from '../../styles/flashDeals.module.css'
 import Image from 'next/image'
-import Counter from '@components/counter/counter'
+import Counter from '@components/counter/Counter'
 const FlashDeals = () => {
   return (
     <section className={style.flash_deals}>
