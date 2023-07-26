@@ -3,15 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import style from '../../styles/products.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
-// export const getLocalData = async () => {
-//     const res = await fetch('/api/fakebd.json')
-//     const data = await res.json();
-//     console.log(data);
-//     return {
-//         props: {commerce: data}
-//     }
-// }
-const Products = ({allProduct}) => {
+const Products = () => {
     
     return (
         <section className={style.product}>
