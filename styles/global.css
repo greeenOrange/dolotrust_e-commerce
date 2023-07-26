@@ -179,6 +179,17 @@ textarea {
   width: 12px;
   height: 12px;
 }
+.rating_in_text {
+  color: var(--gray-1);
+  font-family: var(--font-secondary);
+  line-height: 1rem;
+}
+.rating_in_text::before {
+  content: '(';
+}
+.rating_in_text::after {
+  content: ')';
+}
 .strikeout {
   margin-top: 1.6rem;
   color: var(--blue-1);

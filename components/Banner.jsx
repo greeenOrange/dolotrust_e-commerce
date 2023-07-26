@@ -1,10 +1,14 @@
-// import { Swiper, SwiperSlide } from 'swiper/react';
+'use client'
+
+import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image'
+import 'swiper/css';
+
 const Banner = () => {
   return (
     <section className="banner">
             <div className="container">
-            {/* <Swiper
+            <Swiper
             spaceBetween={50}
             slidesPerView={1}
         >
@@ -18,7 +22,7 @@ const Banner = () => {
             </SwiperSlide>
             <SwiperSlide>2</SwiperSlide>
             <SwiperSlide>3</SwiperSlide>
-        </Swiper> */}
+        </Swiper>
             </div>
         </section>
   )

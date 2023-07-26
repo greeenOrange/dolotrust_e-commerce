@@ -23,7 +23,7 @@ const FlashDeals = () => {
                                 <FontAwesomeIcon icon={faStar} />
                                 <FontAwesomeIcon icon={faStar} />
                                 <FontAwesomeIcon icon={faStarHalf} />
-                                <span className={style.rating_in_text}>1 Reviews</span>
+                                <span className="rating_in_text">1 Reviews</span>
                             </div>
                             <div className={style.secondary_card_footer}>
                                 <div className={style.card_left}>
