@@ -8,11 +8,11 @@ const ToSearceBar = () => {
     <div className="container">
       <div className={style.second_nav}>
         <div className={style.left_bar}>
-          <Link className={`${style.logo} text-black dark:text-white`} href="/"><h2>doloTrust</h2></Link>
-          <div className={`${style.search_input} form-control`}>
+          <Link className="logo text-black dark:text-white" href="/"><h2>doloTrust</h2></Link>
+          <div className="search_input form-control">
             <div className="input-group">
-              <input type="text" placeholder="Search…" className={`${style.input} input-bordered`} />
-              <button className={`${style.btn} btn`}>
+              <input type="text" placeholder="Search…" className="input input-bordered" />
+              <button className={`${style.secondary_btn} btn`}>
                 Search
               </button>
             </div>

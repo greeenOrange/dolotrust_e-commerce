@@ -1,34 +1,7 @@
 .top_search_bar{
     padding: var(--size-700) 0;
 }
-.logo{
-    font-size: 1.5rem;
-}
-.search_bar{
-    display: flex;
-}
-.search_input{
-    width: 34.625rem;
-    max-width: 100%;
-    border-radius: 4px;
-    border: 1px solid #D9D9D9;
-}
-.search_input .input{
-    width: 100%;
-    padding: 0 1rem;
-}
-.search_input .btn{
-    height: 100%;
-    background: var(--sky-blue-1);
-    color: var(--white);
-}
-.search_input .input-bordered{
-    width: 5rem;
-}
-.search_input .input-group input{
-    width: 100%;
-    padding: 1rem;
-}
+
 .customer_cart{
     display: flex;
     align-items: center;

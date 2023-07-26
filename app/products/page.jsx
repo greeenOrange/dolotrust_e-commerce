@@ -1,9 +1,17 @@
-import { faPlus, faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import style from '../../styles/products.module.css'
-import Image from 'next/image'
-
-const Products = () => {
+import { faPlus, faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import style from '../../styles/products.module.css';
+import Image from 'next/image';
+// export const getLocalData = async () => {
+//     const res = await fetch('/api/fakebd.json')
+//     const data = await res.json();
+//     console.log(data);
+//     return {
+//         props: {commerce: data}
+//     }
+// }
+const Products = ({allProduct}) => {
+    
     return (
         <section className={style.product}>
             <div className="container">
@@ -177,8 +185,8 @@ const Products = () => {
                         </div>
                     </div>
                 </div>
-                <div class={style.view_all}>
-                    <button class={`${style.view_btn} btn`}>view all</button>
+                <div className={style.view_all}>
+                    <button className={`${style.view_btn} btn`}>view all</button>
                 </div>
             </div>
         </section>
